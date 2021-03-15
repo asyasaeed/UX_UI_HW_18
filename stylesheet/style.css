@@ -285,6 +285,15 @@ ul{
 .fa-home, .fa-user, .fa-envelope {
     color: #f62a00;
     margin-bottom: 10px;
+}
+
+    #headline h1{
+    
+        font-family: 'Paytone One', sans-serif;
+        margin: 0px 0px;
+        font-size: 48px;
+        color: #f62a00;
+    }
   
   
   
