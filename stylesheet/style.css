@@ -198,7 +198,7 @@ ul{
 #proj1-display{
     grid-area: proj1-display;
     background-color: #f1f3ce;
-    ;
+    
    
 }
 #proj2-display{
@@ -244,54 +244,4 @@ ul{
 
   
 
-  @media all and (max-width: 600px) {
-
-    #hero-image-table{
-        display: grid;
-        min-height: 400px;
-        height: 50vh;
-        grid-template-rows: 40vh 30vh 20vh;
-        grid-template-areas:
-        "hero-title"
-        "profile-image"
-        "intro";
-    }
-
-  
-    #proj-table{
-        display: grid;
-        justify-content:center;
-        grid-gap: 5px;
-        grid-template-rows: 200px;
-        grid-template-columns: 400px;
-        grid-template-areas:
-        "proj1-display" 
-        "proj2-display"
-        "proj3-display" 
-        "proj4-display";
-        
-    }
-
-    #proj1-display{
-        grid-area: proj1-display;
-        background-color: #f1f3ce;
-        ;
-       
-    }
-    #proj2-display{
-        grid-area: proj2-display;
-        background-color: #f1f3ce;
-      
-    }
-    #proj3-display{
-        grid-area: proj3-display;
-        background-color: #f1f3ce;
-       
-    }
-    #proj4-display{
-        grid-area: proj4-display;
-        background-color: #f1f3ce;
-       
-    }
-  
-}
+ 
