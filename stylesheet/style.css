@@ -190,6 +190,7 @@ ul{
   justify-content:center;
  /* border: 1px solid black;*/
   font-size: 30px;
+  font-family: 'Quicksand', sans-serif;
   text-align: center;
   
 }
@@ -242,6 +243,146 @@ ul{
   .fa-twitter{color: white;}  
   .fa-instagram{color: white;}
 
-  
+  @media all and (max-width: 768px){
 
  
+    #navbar{
+
+        float: right;
+        position: fixed;
+        margin:10px;
+        background: transparent;
+        text-align: center;
+        
+    }
+    
+    
+    /* 3 dots*/
+    .nav-dots{
+        margin-top: 10px;
+       
+    }
+    .nav-icon{
+        display: inline-flex;
+        width: 6px;
+        height: 6px;
+        border-radius: 20px;
+        background-color: #f62a00;
+        margin-left:1px;
+        margin-right: 1px;
+        margin-bottom: 8px;
+    }
+    
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 28px;
+      }
+    
+    
+    /* navigation icons*/
+    .fa-home, .fa-user, .fa-envelope {
+        color: #f62a00;
+        margin-bottom: 10px;
+       
+       
+    }
+
+    #content1{
+        height: 80vh;
+     }
+
+
+    #herobg{
+        height:40vh;
+        background-color: #00293c;
+    }
+
+    #hero-image-table{
+       
+        display: grid;
+        min-height: 300px;
+        height: 40vh;
+        border-style: solid;
+        border-color: black;
+        grid-template-rows: 40vh 30vh 20vh;
+        grid-template-areas:
+        "hero-title"
+        "profile-image"
+        "intro";
+    }
+
+    #hero-title{
+        top: 90px;
+    }
+
+    #headline h1{
+        font-family: 'Paytone One', sans-serif;
+        margin: 0px 0px;
+        font-size: 48px;
+        color: #f62a00;
+    }
+
+    #headline p{
+        text-align: center;
+        font-size: 18px;
+        margin: 0px 0px;
+        font-family: 'Quicksand', sans-serif;
+        color: white;
+        padding:10px;
+    }
+
+    
+    #profile-image{
+        top:15vh;
+    }
+    .profile-img{
+        height:130px;
+        width:130px;
+        border-radius: 100%;
+    }
+
+    
+    #intro{
+        top:15vh;
+        padding-left:60px;
+        padding-right: 60px;
+    }
+
+    #intro-txt p{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 16px;
+    }
+
+    #content2{
+        height: 130vh;
+    }
+
+    #work-title{
+        font-family: 'Quicksand', sans-serif;
+        font-size: 24px;
+        color: #f62a00;
+        text-align: center;
+        margin-bottom: 50px;
+        margin-top: 10px;
+    
+  }
+
+  #proj-table{
+    grid-template-rows: 180px 180px 180px 180px;
+    grid-template-columns: 380px;
+    grid-template-areas:
+    "proj1-display" 
+    "proj2-display"
+    "proj3-display" 
+    "proj4-display";
+    
+}
+
+.proj-content-area{
+    font-size: 20px;
+   }
+  
+
+}
