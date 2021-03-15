@@ -242,3 +242,50 @@ ul{
   .fa-facebook{color: white;}
   .fa-twitter{color: white;}  
   .fa-instagram{color: white;}
+
+
+
+  @media only screen and (max-width: 768px) {
+
+    #navbar{
+
+        float: right;
+        position: fixed;
+        margin:10px;
+        background: transparent;
+        text-align: center;
+        
+    }
+    
+    
+    /* 3 dots*/
+    .nav-dots{
+        margin-top: 5px;
+       
+    }
+    .nav-icon{
+        display: inline-flex;
+        width: 6px;
+        height: 6px;
+        border-radius: 25px;
+        background-color: #f62a00;
+        margin-left:1px;
+        margin-right: 1px;
+        margin-bottom: 15px;
+    }
+    
+    ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        font-size: 20px;
+      }
+
+      /* navigation icons*/
+.fa-home, .fa-user, .fa-envelope {
+    color: #f62a00;
+    margin-bottom: 10px;
+  
+  
+  
+  }
