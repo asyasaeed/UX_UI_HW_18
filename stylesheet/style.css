@@ -246,6 +246,17 @@ ul{
 
   @media all and (max-width: 600px) {
 
+    #hero-image-table{
+        display: grid;
+        min-height: 400px;
+        height: 50vh;
+        grid-template-rows: 40vh 30vh 20vh;
+        grid-template-areas:
+        "hero-title"
+        "profile-image"
+        "intro";
+    }
+
   
     #proj-table{
        
